@@ -20,10 +20,8 @@
 
 
 ## Link para vídeo com o passo a passo do deploy e utilização
-[![Vídeo TPC](http://img.youtube.com/vi/3V5XxM7scrQ/0.jpg)](https://www.youtube.com/watch?v=TNQVB-BAgIM).
+[![Vídeo TPC](http://img.youtube.com/vi/3V5XxM7scrQ/0.jpg)](https://youtu.be/a1lTrplmlJI).
 
-
-![Repos](https://github.com/user-attachments/assets/3772d70c-f1dc-47b7-9483-201b0fdfd409)
 
 ## Instruções para Deploy
 1. **Vamos criar o Serviço de Aplicativo no Portal da Azure. Na aba Básico deixe as propriedades dessa forma**:
