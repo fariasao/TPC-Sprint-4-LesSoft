@@ -1,0 +1,255 @@
+Requisições para cada endpoint:
+
+Users:
+POST:
+{
+    "nome": "Thiago",
+    "sobrenome": "Zupelli",
+    "email": "rm99085@fiap.com.br",
+    "password": "123silva4",
+    "telefone": "12345678910",
+    "endereco": "Av. Paulista",
+    "numero": "1100",
+    "complemento": "",
+    "ativo": true
+}
+PUT:
+{
+    "nome": "Enzo",
+    "sobrenome": "Farias",
+    "email": "rm98792@fiap.com.br",
+    "password": "123silva4",
+    "telefone": "12345678910",
+    "endereco": "Av. Paulista",
+    "numero": "1100",
+    "complemento": "",
+    "ativo": true
+}
+
+Lojas:
+POST:
+{
+    "nomeLoja": "Luis Tech",
+    "endereco": "Av. Paulista",
+    "numero": "1100",
+    "complemento": "",
+    "cep": "01234567",
+    "active": true
+}
+PUT:
+{
+    "nomeLoja": "Leandro Eletro",
+    "endereco": "Rua da Consolação",
+    "numero": "200",
+    "complemento": "A",
+    "cep": "76543210",
+    "active": true
+}
+
+Campanhas:
+POST:
+{
+    "masterID": 1,
+    "clusterID": 1,
+    "titulo": "Venda de Porsche",
+    "conteudo": "Promoção na venda de Porsches.",
+    "descricao": "Promoção na venda de Porsches na loja Guilherme Motors.",
+    "canalTipo": 1
+}
+PUT:
+{
+    "masterID": 2,
+    "clusterID": 2,
+    "titulo": "Venda de Computadores",
+    "conteudo": "Promoção na venda de Computadores.",
+    "descricao": "Promoção na venda de Computadores e periféricos na loja Ewerton Tech.",
+    "canalTipo": 2
+}
+
+Categorias:
+POST:
+{
+    "nome": "Venda",
+    "descricao": "Promoções em vendas selecionadas",
+    "ativo": true
+}
+PUT:
+{
+    "nome": "Desconto",
+    "descricao": "Desconto selecionado em determinados produtos",
+    "ativo": true
+}
+
+Cluster:
+POST:
+{
+    "nome": "Cluster One",
+    "descricao": "Tipo um de cluster"
+}
+PUT:
+{
+    "nome": "Cluster Two",
+    "descricao": "Tipo dois de cluster"
+}
+
+Compras:
+POST:
+{
+    "usersID": 1,
+    "pdvID": 1,
+    "valor": "2000.00",
+    "dataCompra": "2024-04-10"
+}
+PUT:
+{
+    "usersID": 2,
+    "pdvID": 2,
+    "valor": "3000.00",
+    "dataCompra": "2024-04-12"
+}
+
+Credit:
+POST:
+{
+    "valor": 1,
+    "dataCredito": "2024-01-12",
+    "dataExpiracao": "2024-04-12",
+    "utilizado": false
+}
+PUT:
+{
+    "valor": 2,
+    "dataCredito": "2024-01-01",
+    "dataExpiracao": "2024-04-01",
+    "utilizado": false
+}
+
+CreditCompras:
+POST:
+{
+    "usersID": 1,
+    "pdvID": 1
+}
+PUT:
+{
+    "usersID": 2,
+    "pdvID": 2
+}
+
+Notificações:
+POST:
+{
+    "pdvID": 1,
+    "titulo": "Promoção de periféricos",
+    "mensagem": "Promoção na venda de periféricos para computador na loja Thiago Tech.",
+    "dataEnvio": "2024-04-14"
+}
+PUT:
+{
+    "pdvID": 2,
+    "titulo": "Promoção de BMW",
+    "mensagem": "Promoção na venda de BMW na loja Enzo Motors.",
+    "dataEnvio": "2024-04-14"
+}
+
+Pontos:
+POST:
+{
+    "valor": 100,
+    "dataCredito": "2024-01-14",
+    "dataExpiracao": "2024-04-14",
+    "utilizado": false
+}
+PUT:
+{
+    "valor": 200,
+    "dataCredito": "2024-01-14",
+    "dataExpiracao": "2024-04-14",
+    "utilizado": true
+}
+
+PontosCompra:
+POST:
+{
+    "compraID": 1,
+    "pointID": 1
+}
+PUT:
+{
+    "compraID": 2,
+    "pointID": 2
+}
+
+Produtos:
+POST:
+{
+    "pdvID": 1,
+    "categoriaID": 1,
+    "nome": "Mouse Gamer HyperX Pulsefire Surge",
+    "descricao": "Mouse gamer da marca HyperX, modelo Pulsefire Surge",
+    "valor": "220.00",
+    "ativo": true
+}
+PUT:
+{
+    "pdvID": 2,
+    "categoriaID": 2,
+    "nome": "Gabinete Hyte y60",
+    "descricao": "Gabinete Hyte y60, importado",
+    "valor": "1129.90",
+    "ativo": true
+}
+
+UserCluster:
+POST:
+{
+    "clusterID": 1,
+    "usersID": 1
+}
+PUT:
+{
+    "clusterID": 2,
+    "usersID": 2
+}
+
+UserMaster:
+POST:
+{
+    "nome": "Thiago",
+    "sobrenome": "Zupelli",
+    "email": "rm99085@fiap.com.br",
+    "password": "123silva4",
+    "dataRegistro": "2024-04-10",
+    "ativo": true
+}
+PUT:
+{
+    "nome": "Enzo",
+    "sobrenome": "Farias",
+    "email": "rm98792@fiap.com.br",
+    "password": "1234silva",
+    "dataRegistro": "2024-04-09",
+    "ativo": true
+}
+
+UserPDV:
+POST:
+{
+    "pdvID": 1,
+    "nome": "Thiago",
+    "sobrenome": "Zupelli",
+    "email": "rm99085@fiap.com.br",
+    "password": "123silva4",
+    "dataRegistro": "2024-04-10",
+    "ativo": true
+}
+PUT:
+{
+    "pdvID": 2,
+    "nome": "Enzo",
+    "sobrenome": "Farias",
+    "email": "rm98792@fiap.com.br",
+    "password": "1234silva",
+    "dataRegistro": "2024-04-09",
+    "ativo": true
+}
