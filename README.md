@@ -78,6 +78,7 @@
 **Utilização da API**
 
 ### Exemplos de Requisições para a API
+Lembrando que como esse app está builadado para ser rodado em nuvem, onde está localhost:8080 / trocar pelo link da nuvem - (link utilizado em video https://lessoft-sprint4-rm99104.azurewebsites.net)
 
 Aqui estão exemplos de como interagir com cada tipo de recurso:
 
