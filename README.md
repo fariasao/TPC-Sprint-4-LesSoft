@@ -16,12 +16,10 @@
 - Thiago Zupelli - RM99085
 
 ## Documentação completa
-[LesSoft_pipelines..pdf](https://github.com/user-attachments/files/17604766/LesSoft_pipelines.pdf)
-
+[DEVOPS - 4SPRINT.pdf](https://github.com/user-attachments/files/17612689/DEVOPS.-.4SPRINT.pdf)
 
 ## Link para vídeo com o passo a passo do deploy e utilização
-[![Vídeo TPC](http://img.youtube.com/vi/3V5XxM7scrQ/0.jpg)](https://youtu.be/a1lTrplmlJI).
-
+[![Vídeo TPC](http://img.youtube.com/vi/3V5XxM7scrQ/0.jpg)](https://youtu.be/bhwy2N7SPlg).
 
 ## Instruções para Deploy
 1. **Vamos criar o Serviço de Aplicativo no Portal da Azure. Na aba Básico deixe as propriedades dessa forma**:
